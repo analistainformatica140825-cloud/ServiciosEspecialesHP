@@ -1,0 +1,106 @@
+:root{--azul:#0a5b8e;--azul2:#0d8bc1;--oscuro:#071d2b;--texto:#24333d;--gris:#65737c;--fondo:#f3f7f9;--blanco:#fff;--borde:#dce6eb;--sombra:0 20px 55px rgba(7,45,67,.13)}*{margin:0;padding:0;box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:86px}body{font-family:Roboto,Arial,sans-serif;color:var(--texto);background:#fff;line-height:1.65}h1,h2,h3,.marca{font-family:Montserrat,Arial,sans-serif}a{text-decoration:none}img{display:block;max-width:100%}button,input,textarea,select{font:inherit}.contenedor{width:min(1160px,90%);margin:auto}.encabezado{position:fixed;inset:0 0 auto;z-index:1000;background:rgba(255,255,255,.94);border-bottom:1px solid rgba(10,91,142,.1);backdrop-filter:blur(14px);transition:.3s}.encabezado.scrolled{box-shadow:0 8px 30px rgba(7,29,43,.09)}.navegacion{min-height:84px;display:flex;align-items:center;justify-content:space-between;gap:24px}.marca{display:flex;align-items:center;gap:12px;color:var(--oscuro)}.marca-icono{width:48px;height:48px;border-radius:14px;display:grid;place-items:center;color:#fff;background:linear-gradient(135deg,var(--azul2),var(--azul));font-size:21px;box-shadow:0 10px 24px rgba(10,91,142,.2)}.marca-texto{display:flex;flex-direction:column;line-height:1.15}.marca-texto strong{font-size:15px}.marca-texto small{font:500 9px Montserrat;letter-spacing:.8px;text-transform:uppercase;color:var(--gris);margin-top:4px}.menu{display:flex;align-items:center;gap:23px}.menu a{font:600 13px Montserrat;color:var(--texto);position:relative}.menu a:after{content:"";position:absolute;left:0;bottom:-7px;width:0;height:2px;background:var(--azul2);transition:.25s}.menu a:hover:after{width:100%}.boton-cotizacion,.boton-principal,.boton-claro{display:inline-flex;align-items:center;justify-content:center;gap:9px;min-height:48px;padding:0 23px;border:0;border-radius:11px;font:700 13px Montserrat;cursor:pointer;transition:.25s}.boton-cotizacion,.boton-principal{color:#fff;background:linear-gradient(135deg,var(--azul2),var(--azul));box-shadow:0 12px 25px rgba(10,91,142,.18)}.boton-cotizacion:hover,.boton-principal:hover,.boton-claro:hover{transform:translateY(-2px)}.boton-menu{display:none;border:0;background:none;color:var(--oscuro);font-size:23px}.hero{position:relative;min-height:790px;padding-top:84px;display:flex;align-items:center;overflow:hidden;background-image:linear-gradient(90deg,rgba(4,20,31,.94) 0%,rgba(5,36,55,.82) 48%,rgba(5,36,55,.3) 100%),url('../img/resultado-final-1.jpg');background-size:cover;background-position:center}.hero:after{content:"";position:absolute;inset:auto -130px -170px auto;width:620px;height:620px;border:1px solid rgba(255,255,255,.14);border-radius:50%}.hero-capa{position:absolute;inset:0;background:linear-gradient(120deg,transparent 52%,rgba(18,159,210,.13) 52.2%,transparent 53%)}.hero-contenido{position:relative;z-index:2;color:#fff}.hero-etiqueta,.subtitulo{display:inline-flex;align-items:center;gap:8px;margin-bottom:15px;color:#26b7ec;font:700 12px Montserrat;letter-spacing:1.8px;text-transform:uppercase}.hero h1{max-width:780px;font-size:clamp(46px,7vw,82px);line-height:1.02;letter-spacing:-2.5px}.hero h1 span{display:block;color:#31b8e8}.hero-descripcion{max-width:630px;margin:24px 0 32px;color:rgba(255,255,255,.82);font-size:18px}.hero-botones{display:flex;flex-wrap:wrap;gap:13px;margin-bottom:54px}.boton-secundario{display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:0 23px;border:1px solid rgba(255,255,255,.4);border-radius:11px;color:#fff;font:700 13px Montserrat;transition:.25s}.boton-secundario:hover{background:rgba(255,255,255,.1);border-color:#fff}.hero-datos{display:flex;flex-wrap:wrap;gap:0}.hero-datos div{padding:0 34px;border-right:1px solid rgba(255,255,255,.18)}.hero-datos div:first-child{padding-left:0}.hero-datos div:last-child{border:0}.hero-datos strong,.hero-datos span{display:block}.hero-datos strong{font:700 18px Montserrat}.hero-datos span{font-size:11px;color:rgba(255,255,255,.62);margin-top:3px}.franja-confianza{background:#fff;border-bottom:1px solid var(--borde)}.confianza-grid{display:grid;grid-template-columns:repeat(4,1fr)}.confianza-grid div{display:flex;align-items:center;justify-content:center;gap:11px;padding:23px 12px;border-right:1px solid var(--borde);font:600 12px Montserrat;color:#40515b}.confianza-grid div:last-child{border:0}.confianza-grid i{color:var(--azul2);font-size:19px}.seccion{padding:105px 0}.presentacion-grid,.contacto-grid{display:grid;grid-template-columns:1fr 1fr;gap:75px;align-items:center}.presentacion-imagen{position:relative}.presentacion-imagen>img{width:100%;height:510px;object-fit:cover;border-radius:28px;box-shadow:var(--sombra)}.experiencia{position:absolute;right:-24px;bottom:28px;width:230px;padding:25px;border-radius:18px;background:#fff;box-shadow:var(--sombra)}.experiencia strong,.experiencia span{display:block}.experiencia strong{font:800 24px Montserrat;color:var(--azul)}.experiencia span{margin-top:5px;color:var(--gris);font-size:12px}.presentacion-texto h2,.encabezado-seccion h2,.contacto-informacion h2,.cta h2{color:var(--oscuro);font-size:clamp(31px,4vw,48px);line-height:1.14;letter-spacing:-1.2px}.presentacion-texto>p:not(.subtitulo){margin-top:17px;color:var(--gris)}.presentacion-texto ul{list-style:none;margin:27px 0}.presentacion-texto li{display:flex;gap:10px;margin:11px 0;font-weight:500}.presentacion-texto li i{color:var(--azul2);margin-top:5px}.enlace-seccion{display:inline-flex;align-items:center;gap:9px;color:var(--azul);font:700 13px Montserrat}.servicios{background:var(--fondo)}.encabezado-seccion{max-width:760px;margin:0 auto 54px;text-align:center}.encabezado-seccion>p:not(.subtitulo){margin-top:14px;color:var(--gris)}.servicios-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}.tarjeta-servicio{position:relative;overflow:hidden;padding:34px 26px;border:1px solid #e7eef2;border-radius:21px;background:#fff;box-shadow:0 13px 35px rgba(7,54,83,.06);transition:.3s}.tarjeta-servicio:hover{transform:translateY(-8px);box-shadow:0 22px 45px rgba(7,54,83,.13);border-color:#cde6f1}.numero{position:absolute;right:18px;top:10px;font:800 45px Montserrat;color:#edf5f8}.icono-servicio{position:relative;width:60px;height:60px;margin-bottom:23px;border-radius:17px;display:grid;place-items:center;color:#fff;background:linear-gradient(135deg,var(--azul2),var(--azul));font-size:23px}.tarjeta-servicio h3{position:relative;color:var(--oscuro);font-size:18px;margin-bottom:10px}.tarjeta-servicio p{position:relative;color:var(--gris);font-size:14px}.proceso{background:#fff}.proceso-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:55px;align-items:center}.proceso-fotos{display:grid;grid-template-columns:1.2fr .8fr;gap:14px;height:520px}.proceso-fotos img{width:100%;height:100%;object-fit:cover;border-radius:20px;box-shadow:var(--sombra)}.proceso-fotos .foto-grande{grid-row:span 1}.pasos{list-style:none}.pasos li{display:grid;grid-template-columns:54px 1fr;gap:18px;padding:22px 0;border-bottom:1px solid var(--borde)}.pasos li>span{width:48px;height:48px;border-radius:50%;display:grid;place-items:center;background:#e8f5fa;color:var(--azul);font:800 12px Montserrat}.pasos h3{font-size:17px;color:var(--oscuro)}.pasos p{font-size:13px;color:var(--gris);margin-top:5px}.antes-despues{background:var(--fondo)}.comparativa{display:grid;grid-template-columns:1fr 70px 1fr;align-items:center}.comparativa figure{position:relative;overflow:hidden;border-radius:24px;box-shadow:var(--sombra)}.comparativa img{width:100%;height:390px;object-fit:cover}.comparativa figcaption{position:absolute;left:18px;right:18px;bottom:18px;padding:15px 18px;border-radius:13px;color:#fff;background:rgba(4,25,38,.78);backdrop-filter:blur(8px);font-size:13px}.comparativa figcaption span{display:block;color:#35bce9;font:800 11px Montserrat;text-transform:uppercase;letter-spacing:1.2px}.flecha{width:54px;height:54px;margin:auto;border-radius:50%;display:grid;place-items:center;color:#fff;background:var(--azul);box-shadow:0 12px 30px rgba(10,91,142,.25)}.galeria-grid{display:grid;grid-template-columns:repeat(3,1fr);grid-auto-rows:285px;gap:18px}.galeria-item{position:relative;overflow:hidden;border:0;border-radius:19px;background:#0a2b3d;cursor:pointer;text-align:left;box-shadow:0 12px 32px rgba(7,54,83,.1)}.galeria-item.ancho{grid-column:span 2}.galeria-item img{width:100%;height:100%;object-fit:cover;transition:transform .45s}.galeria-item:after{content:"";position:absolute;inset:0;background:linear-gradient(transparent 42%,rgba(4,22,33,.82))}.galeria-item:hover img{transform:scale(1.045)}.galeria-item span{position:absolute;z-index:2;left:20px;bottom:18px;color:#fff}.galeria-item strong,.galeria-item small{display:block}.galeria-item strong{font:700 15px Montserrat}.galeria-item small{opacity:.72;margin-top:2px}.cta{padding:70px 0;background:linear-gradient(120deg,#071d2b,#0a5b8e);color:#fff}.cta-contenido{display:flex;align-items:center;justify-content:space-between;gap:40px}.cta h2{color:#fff;font-size:38px}.cta p:not(.subtitulo){color:rgba(255,255,255,.7);margin-top:9px}.boton-claro{background:#fff;color:var(--azul);white-space:nowrap}.contacto{background:var(--fondo)}.contacto-informacion>p:not(.subtitulo){color:var(--gris);margin:17px 0 28px}.dato-contacto{display:flex;gap:15px;align-items:flex-start;margin:20px 0}.dato-contacto i{width:47px;height:47px;flex:0 0 auto;border-radius:13px;display:grid;place-items:center;background:#fff;color:var(--azul);box-shadow:0 8px 20px rgba(7,54,83,.08)}.dato-contacto strong,.dato-contacto span{display:block}.dato-contacto strong{font:700 13px Montserrat;color:var(--oscuro)}.dato-contacto span{color:var(--gris);font-size:13px;margin-top:2px}.formulario-contacto{padding:38px;border-radius:24px;background:#fff;box-shadow:var(--sombra)}.fila-campos{display:grid;grid-template-columns:1fr 1fr;gap:15px}.campo{margin-bottom:18px}.campo label{display:block;margin-bottom:7px;color:var(--oscuro);font:700 12px Montserrat}.campo input,.campo select,.campo textarea{width:100%;padding:14px 15px;border:1px solid #d7e3e9;border-radius:10px;outline:none;background:#fbfdfe;color:var(--texto);transition:.2s}.campo textarea{resize:vertical}.campo input:focus,.campo select:focus,.campo textarea:focus{border-color:var(--azul2);box-shadow:0 0 0 4px rgba(13,139,193,.1)}.boton-formulario{width:100%}.mensaje-formulario{min-height:24px;margin-top:12px;text-align:center;color:var(--azul);font-weight:600;font-size:13px}.pie-pagina{padding:31px 0;background:#061721;color:rgba(255,255,255,.63)}.pie-contenido{display:flex;align-items:center;justify-content:space-between;gap:25px;font-size:12px}.pie-marca{display:flex;align-items:center;gap:12px}.pie-marca>i{font-size:24px;color:#26b7ec}.pie-marca strong{display:block;color:#fff;font:700 13px Montserrat}.whatsapp-flotante{position:fixed;right:24px;bottom:24px;z-index:900;width:58px;height:58px;border-radius:50%;display:grid;place-items:center;background:#25d366;color:#fff;font-size:28px;box-shadow:0 14px 35px rgba(0,0,0,.24);transition:.25s}.whatsapp-flotante:hover{transform:scale(1.08)}.lightbox{position:fixed;inset:0;z-index:2000;display:flex;align-items:center;justify-content:center;padding:5vw;background:rgba(3,15,22,.92);opacity:0;visibility:hidden;transition:.25s}.lightbox.activo{opacity:1;visibility:visible}.lightbox img{max-width:1100px;max-height:84vh;border-radius:14px;box-shadow:0 25px 80px rgba(0,0,0,.45)}.lightbox button{position:absolute;right:28px;top:24px;width:46px;height:46px;border:0;border-radius:50%;background:#fff;color:var(--oscuro);font-size:21px;cursor:pointer}.revelar{opacity:0;transform:translateY(22px);transition:opacity .7s ease,transform .7s ease}.revelar.visible{opacity:1;transform:none}
+@media(max-width:1000px){.menu,.boton-cotizacion{display:none}.boton-menu{display:block}.menu.activo{position:absolute;top:84px;left:5%;right:5%;display:flex;flex-direction:column;align-items:flex-start;padding:24px;border-radius:16px;background:#fff;box-shadow:var(--sombra)}.presentacion-grid,.contacto-grid,.proceso-grid{grid-template-columns:1fr}.servicios-grid{grid-template-columns:repeat(2,1fr)}.experiencia{right:20px}.confianza-grid{grid-template-columns:repeat(2,1fr)}.confianza-grid div:nth-child(2){border-right:0}.cta-contenido{align-items:flex-start;flex-direction:column}}
+@media(max-width:680px){.marca-texto small{display:none}.hero{min-height:720px;background-position:63% center}.hero h1{font-size:45px}.hero-datos{gap:18px}.hero-datos div{padding:0;border:0;width:100%}.seccion{padding:76px 0}.confianza-grid{grid-template-columns:1fr}.confianza-grid div{justify-content:flex-start;border-right:0;border-bottom:1px solid var(--borde)}.servicios-grid,.galeria-grid{grid-template-columns:1fr}.galeria-grid{grid-auto-rows:260px}.galeria-item.ancho{grid-column:auto}.proceso-fotos{height:auto;grid-template-columns:1fr}.proceso-fotos img{height:310px}.comparativa{grid-template-columns:1fr;gap:18px}.comparativa img{height:300px}.flecha{transform:rotate(90deg)}.presentacion-imagen>img{height:420px}.experiencia{position:relative;right:auto;bottom:auto;width:90%;margin:-45px auto 0}.fila-campos{grid-template-columns:1fr}.formulario-contacto{padding:26px 20px}.pie-contenido{flex-direction:column;text-align:center}.cta h2{font-size:31px}}
+
+
+/* Datos de contacto */
+.dato-contacto a {
+  color: inherit;
+  text-decoration: none;
+  transition: color .2s ease;
+}
+.dato-contacto a:hover {
+  color: #0b78d0;
+}
+.enlace-mapa {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  margin-top: 7px;
+  color: #0b78d0 !important;
+  font-weight: 700;
+}
+.horario-contacto {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  margin-top: 22px;
+  padding: 16px 18px;
+  border-radius: 14px;
+  background: rgba(11, 94, 168, .07);
+}
+.horario-contacto > i {
+  font-size: 1.3rem;
+  color: #0b5ea8;
+  margin-top: 2px;
+}
+.horario-contacto strong,
+.horario-contacto span {
+  display: block;
+}
+.horario-contacto span {
+  margin-top: 4px;
+}
+
+/* WhatsApp flotante */
+.whatsapp-flotante {
+  position: fixed;
+  right: 24px;
+  bottom: 24px;
+  z-index: 1000;
+  width: 60px;
+  height: 60px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  background: #25d366;
+  color: #fff;
+  font-size: 30px;
+  text-decoration: none;
+  box-shadow: 0 12px 30px rgba(0,0,0,.22);
+  transition: transform .2s ease, box-shadow .2s ease;
+}
+.whatsapp-flotante:hover {
+  color: #fff;
+  transform: translateY(-4px) scale(1.04);
+  box-shadow: 0 16px 34px rgba(0,0,0,.28);
+}
+.tooltip-whatsapp {
+  position: absolute;
+  right: 72px;
+  white-space: nowrap;
+  background: #151a20;
+  color: #fff;
+  font-size: 12px;
+  padding: 8px 11px;
+  border-radius: 8px;
+  opacity: 0;
+  pointer-events: none;
+  transform: translateX(5px);
+  transition: .2s ease;
+}
+.whatsapp-flotante:hover .tooltip-whatsapp {
+  opacity: 1;
+  transform: translateX(0);
+}
+.mensaje-formulario {
+  min-height: 22px;
+  margin-top: 12px;
+  font-weight: 600;
+}
+.mensaje-formulario.error { color: #b42318; }
+.mensaje-formulario.exito { color: #087443; }
+
+@media (max-width: 600px) {
+  .whatsapp-flotante {
+    right: 16px;
+    bottom: 16px;
+    width: 54px;
+    height: 54px;
+    font-size: 26px;
+  }
+  .tooltip-whatsapp { display: none; }
+}
+
+/* Acceso discreto al panel administrativo */
+.acceso-admin{position:fixed;left:14px;bottom:14px;width:34px;height:34px;border-radius:50%;display:grid;place-items:center;background:rgba(16,43,70,.88);color:#fff;text-decoration:none;font-size:12px;z-index:900;opacity:.58;transition:.2s}.acceso-admin:hover{opacity:1;transform:translateY(-2px);color:#fff}
